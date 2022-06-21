@@ -1,0 +1,35 @@
+{
+  "name": "basic-auth-mdnh-wk2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint **/*.js",
+    
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcusdnhartwig/basic-auth-mdnh-wk2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcusdnhartwig/basic-auth-mdnh-wk2/issues"
+  },
+  "homepage": "https://github.com/marcusdnhartwig/basic-auth-mdnh-wk2#readme",
+  "dependencies": {
+    "base-64": "^1.0.0",
+    "bcrypt": "^5.0.1",
+    "express": "^4.18.1",
+    "jest": "^28.1.1",
+    "nodemon": "^2.0.16",
+    "pg": "^8.7.3",
+    "sequelize": "^6.21.0",
+    "sequelize-cli": "^6.4.1",
+    "sqlite3": "^5.0.8",
+    "supertest": "^6.2.3"
+  }
+}
